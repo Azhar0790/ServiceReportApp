@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bg_gry">
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:alpha="0.2"-->
+        <!--android:src="@drawable/caterpillar_engine"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@color/bg_color_white"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/tool_bar_text_size" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_title"
+        android:id="@+id/view"
+        android:background="@color/colorPrimary"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_complaint_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"
+        android:orientation="vertical"></android.support.v7.widget.RecyclerView>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/cb_progress_bar"
+        app:cpb_colors="@array/gplus_colors"/>
+</RelativeLayout>

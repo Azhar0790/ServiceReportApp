@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/ll_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="20% - "
+                android:textSize="18sp"
+                android:textColor="#63d034"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complaint Request Sent"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="50% - "
+                android:textSize="18sp"
+                android:textColor="#a08020"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assigned to engineer"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="70% - "
+                android:textSize="18sp"
+                android:textColor="#c05415"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Started"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="100% - "
+                android:textSize="18sp"
+                android:textColor="#ec1906"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Completed"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.hookedonplay.decoviewlib.DecoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dynamicArcView"
+        android:layout_below="@+id/ll_text"
+        android:layout_margin="8dp">
+
+    </com.hookedonplay.decoviewlib.DecoView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:id="@+id/textPercentage"
+        android:layout_below="@+id/ll_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        />
+
+    <include layout="@layout/layout_replay"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Santech Electricals</string>
+    <string name="text">Squid blog crucifix Marfa, consectetur vero placeat mixtape. Non seitan sriracha eu, do Banksy fashion axe cred qui vegan delectus consequat Helvetica mollit. XOXO gluten-free disrupt, gastropub officia cliche chillwave hella pop-up. Fixie swag raw denim, YOLO craft beer assumenda occupy veniam photo booth pug consectetur next level Portland tote bag +1. Mlkshk PBR aliquip placeat Wes Anderson.</string>
+    <string name="title">My Description</string>
+    <string name="context_menu">Context menu</string>
+    <string name="email_error">Please insert correct email id</string>
+    <string name="password_error">Please insert your password</string>
+    <string name="login">LOGIN</string>
+    <string name="login2">==== TO ==== \n YOUR ACCOUNT </string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="save_signature">Save Signature</string>
+    <string name="about_us">Santech Electricals &amp; Technology was established in 2013,complete technical solutions to the customers.
+Authorized distributor for</string>
+    <string name="product_item">
+    \u2022 Cooper Gensets range from 10KVA – 200KVA \n
+    \u2022 Distributor for Shell Engine oil \n
+    \u2022 Perkins 800kva – 2000 kva \n
+    \u2022 Volvo 200kva – 750 kva \n
+    \u2022 MTU 2000 kva -3500kva </string>
+
+</resources>

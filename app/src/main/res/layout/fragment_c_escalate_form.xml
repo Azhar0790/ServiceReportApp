@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:text="Escalate form"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/tool_bar_text_size" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv_close"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_close"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/et_issue_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_border_line"
+        android:gravity="top"
+        android:hint="Please enter your issue."
+        android:lines="6"
+        android:maxLines="6"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color_grey" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple"
+        android:text="Submit" />
+</LinearLayout>
